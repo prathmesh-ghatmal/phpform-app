@@ -204,7 +204,7 @@ Add:
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=YOUR_PASSWORD
-DB_NAME=phpform_db
+DB_NAME=form_app
 ```
 Replace your password with actual Mysql password
 
@@ -343,7 +343,7 @@ Add:
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=YOUR_LINUX_MYSQL_PASSWORD
-DB_NAME=phpform_db
+DB_NAME=form_app
 ```
 replace your password with actual Mysql password
 ---
