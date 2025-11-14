@@ -368,3 +368,12 @@ taskkill /PID <PID> /F
 
 # 🎉 Done — Windows → Linux Migration Complete!
 
+sudo apt update
+sudo apt install php-cli unzip curl -y
+cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer --version
+composer require vlucas/phpdotenv
+
+
